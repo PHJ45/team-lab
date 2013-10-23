@@ -1,0 +1,25 @@
+<div class='container' style="padding-top: 20px;">
+  <div class='row'>
+    <div class='span8'>
+      <div class="page-header">
+        <form action="update" method="post">
+          <label for="title">Song Name</label>
+          <input type="text" id="title" name="title" value="<%= @song.title%>"><br>
+
+          <label for="artist">Artist Name</label>
+          <input type="text" id="artist" name="artist" value="<%= @song.artist %>"><br>
+
+          <label for="album">Album Name</label>
+          <input type="text" id="album" name="album" value="<%= @song.album %>"><br>
+
+          <label for="genre">Genre</label>
+          <input type="text" id="genre" name="genre" value="<%= @song.genre %>"><br>
+
+          <label for="length">Length</label>
+          <input type="text" id="length" name="length" value="<%= @song.length %>"><br>
+
+          <input type="submit" value="submit">
+        </form>
+      </div>
+  </div>
+</div>

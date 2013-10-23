@@ -5,3 +5,4 @@ gem 'sinatra-reloader', require: false
 
 gem 'sqlite3'
 gem 'sequel'
+gem 'pry'
